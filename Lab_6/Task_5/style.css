@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "arial", sans-serif;
   background-color: #f6f8ff;
   margin: 0;
   padding: 0;
@@ -52,7 +52,6 @@ body {
   color: #fff;
 }
 
-/* ====== Основна частина сторінки ================================================================================== */
 .gradients {
   width: 990px;
   margin: 0 auto;
@@ -93,24 +92,24 @@ body {
   line-height: 1.5;
 }
 
-.gradOne {
+.gradient_One {
   background: linear-gradient(135deg, yellow, blue);
 }
 
-.gradTwo {
+.gradient_Two {
   background:
     repeating-linear-gradient(45deg, yellow 0 20px, blue 20px 40px),
     radial-gradient(circle at center, #fff 0%, #ccc 100%);
 }
 
-.gradThree {
+.gradient_Three {
   background:
     linear-gradient(to right, green, yellow),
     radial-gradient(circle at center, white, transparent 70%);
   background-blend-mode: multiply;
 }
 
-.gradFour {
+.gradient_Four {
   background:
     linear-gradient(135deg, yellow 50%, transparent 50%),
     linear-gradient(-135deg, green 50%, transparent 50%),
@@ -118,7 +117,7 @@ body {
   background-blend-mode: screen;
 }
 
-.gradFive {
+.gradient_Five {
   background:
     repeating-radial-gradient(circle, red, orange, yellow, green, blue, purple 60%);
 }

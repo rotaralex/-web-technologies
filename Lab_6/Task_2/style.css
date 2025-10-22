@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "arial", sans-serif;
   background-color: #f6f8ff;
   margin: 0;
   padding: 0;
@@ -52,7 +52,6 @@ body {
   color: #fff;
 }
 
-/* ====== Основна частина сторінки ======================================================== */
 .blocks {
   width: 990px;
   margin: 0 auto;
@@ -76,12 +75,12 @@ body {
 
 .green {
   border-style: solid;
-  border-color: green;
+  border-color: rgb(0, 55, 128);
   border-width: 4px;
 }
 .greenBig {
   border-style: solid;
-  border-color: green greenyellow;
+  border-color: rgb(150, 13, 79) rgb(85, 12, 232);
   border-width: 10px;
 }
 
