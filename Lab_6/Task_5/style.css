@@ -93,30 +93,29 @@ body {
 }
 
 .gradient_One {
-  background: linear-gradient(135deg, yellow, blue);
+    background: linear-gradient(45deg, rgb(77, 231, 141) 2%, rgba(255, 255, 61, 1) 23%, rgba(48, 52, 255, 1) 50%, rgba(145, 107, 210, 1) 68%, rgba(237, 165, 83, 1) 100%);
 }
 
 .gradient_Two {
-  background:
-    repeating-linear-gradient(45deg, yellow 0 20px, blue 20px 40px),
-    radial-gradient(circle at center, #fff 0%, #ccc 100%);
+
+    background:
+            linear-gradient(45deg, green 17%, white 25%, transparent 25%, transparent 75%, orange 75%, blue 95%),
+            linear-gradient(45deg, yellow 17%, white 25%, transparent 25%, transparent 75%, purple 75%, orange 95%);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
 }
 
 .gradient_Three {
-  background:
-    linear-gradient(to right, green, yellow),
-    radial-gradient(circle at center, white, transparent 70%);
-  background-blend-mode: multiply;
+    background-image: repeating-linear-gradient(to right, green, white 15%, white 16%, blue 17%, yellow 35%);
 }
 
 .gradient_Four {
-  background:
-    linear-gradient(135deg, yellow 50%, transparent 50%),
-    linear-gradient(-135deg, green 50%, transparent 50%),
-    linear-gradient(to bottom, #fff, #c8e6c9);
-  background-blend-mode: screen;
+    background:
+            linear-gradient(300deg, rgba(255, 208, 0, 1) 0%, rgba(255, 224, 86, 1) 34%, rgba(255, 255, 255, 0) 34%, rgba(255, 255, 255, 0) 100%),
+            linear-gradient(53deg, rgba(23, 227, 0, 1) 0%, rgba(50, 174, 87, 1) 25%, rgba(52, 170, 93, 0) 25%),
+            linear-gradient(145deg, rgba(255, 140, 0, 1) 0%, rgba(170, 125, 52, 0) 60%),
+            linear-gradient(225deg, rgba(0, 20, 171, 1) 0%, rgba(170, 125, 52, 0) 60%);
 }
-
 .gradient_Five {
   background:
     repeating-radial-gradient(circle, red, orange, yellow, green, blue, purple 60%);
