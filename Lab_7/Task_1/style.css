@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Відстань між рядами */
+}
+
+/* Верхній ряд із двома блоками */
+.top-row {
+    display: flex;
+    gap: 20px; /* Відстань між блоками */
+    justify-content: center;
+}
+
+/* Нижній ряд */
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Загальні стилі для блоків */
+.block {
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Сині блоки */
+.blue {
+    background-color: #3b83c4;
+    width: 180px;
+    height: 100px;
+}
+
+/* Фіолетовий блок */
+.purple {
+    background-color: #52396f;
+    width: 400px;
+    height: 100px;
+}
