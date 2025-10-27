@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Контейнер з флексами */
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* --- Блок 1 --- */
+.block1 {
+  background-color: #17a44b;
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Блок 2 (прихований спочатку) --- */
+.block2 {
+  background-color: #3b83c4;
+  color: white;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- Блок 3 (прихований спочатку) --- */
+.block3 {
+  background-color: #52396f;
+  color: white;
+  border: 2px solid black;
+  width: 200px;
+  height: 60px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Hover-ефекти */
+.block1:hover .block2 {
+  display: flex;
+}
+
+.block2:hover .block3 {
+  display: flex;
+}
+
+/* Додатково: плавна поява */
+.block2, .block3 {
+  transition: opacity 0.4s ease;
+}
