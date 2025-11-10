@@ -7,14 +7,14 @@ body {
   align-items: center;
 }
 
-/* Контейнер з флексами */
+
 .container {
   display: flex;
   gap: 20px;
   align-items: flex-start;
 }
 
-/* --- Блок 1 --- */
+
 .block1 {
   background-color: #17a44b;
   color: white;
@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 
-/* --- Блок 2 (прихований спочатку) --- */
+
 .block2 {
   background-color: #3b83c4;
   color: white;
@@ -46,7 +46,7 @@ body {
   align-items: center;
 }
 
-/* --- Блок 3 (прихований спочатку) --- */
+
 .block3 {
   background-color: #52396f;
   color: white;
@@ -59,7 +59,6 @@ body {
   text-align: center;
 }
 
-/* Hover-ефекти */
 .block1:hover .block2 {
   display: flex;
 }
@@ -68,7 +67,6 @@ body {
   display: flex;
 }
 
-/* Додатково: плавна поява */
 .block2, .block3 {
   transition: opacity 0.4s ease;
 }

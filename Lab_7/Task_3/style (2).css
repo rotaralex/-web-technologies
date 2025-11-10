@@ -8,7 +8,7 @@ body {
 .form-container {
   width: 620px;
   border: 20px solid #868686;
-  background-image: url(magnificent-futuristic-dark-architectural-background-picjumbo-com.jpe);
+  background-image: url(magnificent-futuristic-dark-architectural-background-picjumbo-com.jpeg);
   background-size: cover;
   background-position: center;
   padding: 0 20px 20px 20px;
@@ -26,6 +26,17 @@ body {
   margin: 20px 0 40px 0;
   position: relative;
   transition: all 0.4s ease;
+}
+
+hr {
+  width: 80%;
+  border-color: red;
+  background-color: red;
+  height: 2.5px;
+}
+
+hr:hover h1::after {
+  opacity: 0;
 }
 
 .main-text {
